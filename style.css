@@ -65,10 +65,7 @@ button {
     padding: 10px 20px;
     margin: 15px;
     cursor: wait;/*giving shape to the hover*/
-    position:fixed;
-    top: 10%;
-    left: 43%;
-    transform: translateX(-50%);
+   
     
 
 }
