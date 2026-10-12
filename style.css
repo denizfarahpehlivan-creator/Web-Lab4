@@ -1,44 +1,74 @@
+
+
 body {
-    font-family: Arial, sans-serif;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+   background: linear-gradient(90deg, #04a42c, #e5ee72)  !important;
 }
 
 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 button {
-    padding: 8px 14px;
-    margin: 4px;
-    cursor: pointer;
+  padding: 8px 14px;
+  margin: 4px;
+  cursor: pointer;
 }
 
+
 #statusMessage {
-    min-height: 20px;
-    margin: 15px 0;
+  min-height: 20px;
+  margin: 15px 0;
 }
 
 .task {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 12px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+  display:flex;
+  align-items:center;
+  gap: 25px;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
 .task span {
-    flex: 1;
+  flex: 1;
 }
 
 .completed span {
-    text-decoration: line-through;
-    opacity: 0.6;
+  text-decoration: line-through;
+  opacity: 0.6;
 }
 
-.completed span {
-    text-decoration: line-through;
+.task button:nth-of-type(1) {
+  background-color: green !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.task button:nth-of-type(2) {
+  background-color: red !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.load-button{
+    
+    background-color: #a82d2d;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: wait;/*giving shape to the hover*/
+    position:fixed;
+    top: 10%;
+    left: 43%;
+    transform: translateX(-50%);
+    
+
 }
